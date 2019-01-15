@@ -15,6 +15,8 @@
 		9F8E82A921ED390000D35B79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E82A821ED390000D35B79 /* main.m */; };
 		9F8E82B321ED390000D35B79 /* _PlayerMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E82B221ED390000D35B79 /* _PlayerMathTests.m */; };
 		9F8E82BE21ED390000D35B79 /* _PlayerMathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E82BD21ED390000D35B79 /* _PlayerMathUITests.m */; };
+		9F8E82CD21ED3C7B00D35B79 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E82CC21ED3C7B00D35B79 /* Player.m */; };
+		9F8E82D021ED3D0800D35B79 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E82CF21ED3D0800D35B79 /* GameManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9F8E82B921ED390000D35B79 /* 2PlayerMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2PlayerMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8E82BD21ED390000D35B79 /* _PlayerMathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _PlayerMathUITests.m; sourceTree = "<group>"; };
 		9F8E82BF21ED390000D35B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8E82CB21ED3C7B00D35B79 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		9F8E82CC21ED3C7B00D35B79 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		9F8E82CE21ED3D0800D35B79 /* GameManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		9F8E82CF21ED3D0800D35B79 /* GameManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				9F8E829C21ED38FF00D35B79 /* ViewController.h */,
 				9F8E829D21ED38FF00D35B79 /* ViewController.m */,
 				9F8E829F21ED38FF00D35B79 /* Main.storyboard */,
+				9F8E82CB21ED3C7B00D35B79 /* Player.h */,
+				9F8E82CC21ED3C7B00D35B79 /* Player.m */,
+				9F8E82CE21ED3D0800D35B79 /* GameManager.h */,
+				9F8E82CF21ED3D0800D35B79 /* GameManager.m */,
 				9F8E82A221ED390000D35B79 /* Assets.xcassets */,
 				9F8E82A421ED390000D35B79 /* LaunchScreen.storyboard */,
 				9F8E82A721ED390000D35B79 /* Info.plist */,
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F8E82CD21ED3C7B00D35B79 /* Player.m in Sources */,
 				9F8E829E21ED38FF00D35B79 /* ViewController.m in Sources */,
+				9F8E82D021ED3D0800D35B79 /* GameManager.m in Sources */,
 				9F8E82A921ED390000D35B79 /* main.m in Sources */,
 				9F8E829B21ED38FF00D35B79 /* AppDelegate.m in Sources */,
 			);
